@@ -9,7 +9,7 @@ class HelloWorld
         System.out.print("Enter the number:");
         a=sc.nextInt();
         if(a==0){
-            System.out.println("The  of the  is:1");
+            System.out.println("The  factorial of the  is:1");
         }
         else
         {
