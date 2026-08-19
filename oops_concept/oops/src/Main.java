@@ -7,8 +7,9 @@ public  class Main {
     }
 }
 class Order {
-    int orderId;
-    String orderStatus;
+    public  int orderId;
+    public String orderStatus;
+    
     Order(int orderId,String orderStatus){
         this.orderId=orderId;
         this.orderStatus=orderStatus;
