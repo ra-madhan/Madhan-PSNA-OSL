@@ -9,15 +9,10 @@ public  class Main {
 class Order {
     int orderId;
     String orderStatus;
-    Order(int orderId){
+    Order(int orderId,String orderStatus){
         this.orderId=orderId;
-        System.out.println("orderId:"+orderId);
-
-    }
-    Order(int orderId,String orderStatus ){
-        this(orderId);
         this.orderStatus=orderStatus;
-        System.out.println("Order status:"+orderStatus);
-    }
+        System.out.println("Your order id:"+orderId+" is "+orderStatus);
 
+    }
 }
